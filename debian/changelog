@@ -1,0 +1,394 @@
+libkf5libkleo (4:21.08.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:45:43 +0800
+
+libkf5libkleo (4:21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:26:28 +0900
+
+libkf5libkleo (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+  * Disable autotests during build.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 18 Aug 2021 08:41:33 +0900
+
+libkf5libkleo (4:21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:40:53 +0900
+
+libkf5libkleo (4:21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:15:19 +0900
+
+libkf5libkleo (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Maximiliano Curia from the uploaders, thanks for your work
+    on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:47:04 +0900
+
+libkf5libkleo (4:20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:39:36 +0100
+
+libkf5libkleo (4:20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:07:52 +0200
+
+libkf5libkleo (4:20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:52:20 +0200
+
+libkf5libkleo (4:20.04.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Explicitly add the gettext build dependency.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * Unregister the old /etc/xdg/libkleo.categories, and
+    /etc/xdg/libkleo.renamecategories conffiles.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 23 Aug 2020 10:32:31 +0200
+
+libkf5libkleo (4:20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:59:58 +0200
+
+libkf5libkleo (4:20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (19.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (20.04.0).
+  * Enable hardening all.
+  * Cleanup copyright file.
+  * Set fields Upstream-Name, Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:22:19 +0200
+
+libkf5libkleo (4:19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:54:33 +0100
+
+libkf5libkleo (4:19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Remove breaks against kde-l10n packages.
+  * Update install files for new upstream release.
+  * Update libkf5libkleo-dev dependencies.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:39:14 +0100
+
+libkf5libkleo (4:18.08.3-4) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:49:37 +0100
+
+libkf5libkleo (4:18.08.3-3) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.0 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Use virtual packages to bundle KDEPIM.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 05 Oct 2019 00:02:18 +0200
+
+libkf5libkleo (4:18.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update symbols from buildds for 4:18.08.3
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Feb 2019 21:08:17 +0100
+
+libkf5libkleo (4:18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed acc autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 15:59:01 +0100
+
+libkf5libkleo (4:18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * Update symbols from buildds for 4:18.07.90
+  * New upstream release (18.08.1).
+  * Follow stable releases in KDE again.
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:17:49 +0200
+
+libkf5libkleo (4:18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update symbols from build for 18.07.90.
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 17 Aug 2018 18:17:04 +0200
+
+libkf5libkleo (4:17.12.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols file from logs of buildds.
+  * Remove the alternative libqgpgme7-dev build dependency, as it does not
+    exist.
+  * Remove the unused 'testsuite' autopkgtest.
+  * Remove the alternative libgpgme7-dev dependency in libkf5libkleo-dev,
+    as it does not exist.
+  * Bump Standards-Version to 4.1.4, no changes required.
+  * Remove the unused ${shlibs:Depends} substvar in libkf5libkleo-dev.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 01 May 2018 14:40:30 +0200
+
+libkf5libkleo (4:17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update symbols from buildds for 4:17.12.2
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+  * Use secure uri in d/watch.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:27:39 +0200
+
+libkf5libkleo (4:17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Bump Standards-Version to 4.1.3 (No changes needed).
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file.
+  * Update symbols files for 17.12.2.
+  * Bump debhelper build-dep and compat to 11.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:15:37 +0100
+
+libkf5libkleo (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Bump debhelper build-dep and compat to 10.
+  * Update symbols from buildds for 4:17.08.0
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 18:00:06 +0100
+
+libkf5libkleo (4:17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Bump group breaks (17.08)
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:19:46 +0200
+
+libkf5libkleo (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:43:15 +0000
+
+libkf5libkleo (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:25:20 +0000
+
+libkf5libkleo (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:24:37 +0000
+
+libkf5libkleo (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:27:09 +0000
+
+libkf5libkleo (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 13:27:39 +0000
+
+libkf5libkleo (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:51:16 +0000
+
+libkf5libkleo (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:03:30 +0000
+
+libkf5libkleo (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:24:44 +0000
+
+libkf5libkleo (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:32:04 +0000
+
+libkf5libkleo (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:55:44 +0000
+
+libkf5libkleo (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:30 +0000
+
+libkf5libkleo (4:16.08.1-1~1.gbp7a5492) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7a5492d7f57d55d5273643fe65f0cd0f55aa7806 **
+
+  [ Maximiliano Curia ]
+  ** SNAPSHOT build @6f2f7f92b7a10ab96f15e23a984851dbd8cc9061 **
+
+  * UNRELEASED
+  * Update install files
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Update symbols files
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 13:37:44 +0200
+
+libkf5libkleo (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:19 +0000
+
+libkf5libkleo (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:50:30 +0000
+
+libkf5libkleo (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:42 +0000
+
+libkf5libkleo (4:16.04.2-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (4:16.04.1-2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:35:54 +0200
+
+libkf5libkleo (4:16.04.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jun 2016 10:59:39 +0200
+
+libkf5libkleo (4:16.04.1-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Initial release.
+  * Add missing breaks/replaces
+
+  [ Automatic packaging ]
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 20:12:43 +0200
