@@ -1,0 +1,13 @@
+Description: Fix build with GCC 12
+Author: Clansty <i@gao4.pw>
+
+--- libkf5libkleo-21.08.1.orig/src/utils/algorithm.h
++++ libkf5libkleo-21.08.1/src/utils/algorithm.h
+@@ -11,6 +11,7 @@
+ #pragma once
+ 
+ #include <algorithm>
++#include <vector>
+ 
+ namespace Kleo
+ {
